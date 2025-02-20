@@ -15,9 +15,11 @@ if len(password) > 12:
 
 return score
 
-def main(): password = input("Введите пароль: ") print(f"Рейтинг пароля: {password_rating(password)}")
+def main(): password = input("Введите пароль: ") print("Рейтинг пароля: " + str(password_rating(password)))
 
 if name == "main": main()
+
+
 
 
 
